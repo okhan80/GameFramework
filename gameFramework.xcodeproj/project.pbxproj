@@ -25,6 +25,7 @@
 		C1F64E0514F699CE00F5C81E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1F64DDB14F699CE00F5C81E /* Foundation.framework */; };
 		C1F64E0D14F699CE00F5C81E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C1F64E0B14F699CE00F5C81E /* InfoPlist.strings */; };
 		C1F64E1014F699CE00F5C81E /* gameFrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C1F64E0F14F699CE00F5C81E /* gameFrameworkTests.m */; };
+		C1F64E1B14F69BDA00F5C81E /* gameModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C1F64E1914F69BDA00F5C81E /* gameModel.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,24 +45,25 @@
 		C1F64DDD14F699CE00F5C81E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		C1F64DDF14F699CE00F5C81E /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
 		C1F64DE114F699CE00F5C81E /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
-		C1F64DE514F699CE00F5C81E /* gameFramework-Info.plist */ = {isa = PBXFileReference; path = "gameFramework-Info.plist"; sourceTree = "<group>"; };
+		C1F64DE514F699CE00F5C81E /* gameFramework-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "gameFramework-Info.plist"; sourceTree = "<group>"; };
 		C1F64DE714F699CE00F5C81E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C1F64DE914F699CE00F5C81E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C1F64DEB14F699CE00F5C81E /* gameFramework-Prefix.pch */ = {isa = PBXFileReference; path = "gameFramework-Prefix.pch"; sourceTree = "<group>"; };
-		C1F64DEC14F699CE00F5C81E /* gameAppDelegate.h */ = {isa = PBXFileReference; path = gameAppDelegate.h; sourceTree = "<group>"; };
+		C1F64DEB14F699CE00F5C81E /* gameFramework-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "gameFramework-Prefix.pch"; sourceTree = "<group>"; };
+		C1F64DEC14F699CE00F5C81E /* gameAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gameAppDelegate.h; sourceTree = "<group>"; };
 		C1F64DED14F699CE00F5C81E /* gameAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gameAppDelegate.m; sourceTree = "<group>"; };
 		C1F64DF014F699CE00F5C81E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		C1F64DF314F699CE00F5C81E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		C1F64DF514F699CE00F5C81E /* Shader.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.fsh; path = Shaders/Shader.fsh; sourceTree = "<group>"; };
 		C1F64DF714F699CE00F5C81E /* Shader.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.vsh; path = Shaders/Shader.vsh; sourceTree = "<group>"; };
-		C1F64DF914F699CE00F5C81E /* gameViewController.h */ = {isa = PBXFileReference; path = gameViewController.h; sourceTree = "<group>"; };
+		C1F64DF914F699CE00F5C81E /* gameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gameViewController.h; sourceTree = "<group>"; };
 		C1F64DFA14F699CE00F5C81E /* gameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gameViewController.m; sourceTree = "<group>"; };
 		C1F64E0114F699CE00F5C81E /* gameFrameworkTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gameFrameworkTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1F64E0214F699CE00F5C81E /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		C1F64E0A14F699CE00F5C81E /* gameFrameworkTests-Info.plist */ = {isa = PBXFileReference; path = "gameFrameworkTests-Info.plist"; sourceTree = "<group>"; };
+		C1F64E0A14F699CE00F5C81E /* gameFrameworkTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "gameFrameworkTests-Info.plist"; sourceTree = "<group>"; };
 		C1F64E0C14F699CE00F5C81E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		C1F64E0E14F699CE00F5C81E /* gameFrameworkTests.h */ = {isa = PBXFileReference; path = gameFrameworkTests.h; sourceTree = "<group>"; };
+		C1F64E0E14F699CE00F5C81E /* gameFrameworkTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gameFrameworkTests.h; sourceTree = "<group>"; };
 		C1F64E0F14F699CE00F5C81E /* gameFrameworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gameFrameworkTests.m; sourceTree = "<group>"; };
+		C1F64E1A14F69BDA00F5C81E /* gameModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = gameModel.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 		C1F64DCA14F699CD00F5C81E = {
 			isa = PBXGroup;
 			children = (
+				C1F64E1914F69BDA00F5C81E /* gameModel.xcdatamodeld */,
 				C1F64DE314F699CE00F5C81E /* gameFramework */,
 				C1F64E0814F699CE00F5C81E /* gameFrameworkTests */,
 				C1F64DD814F699CE00F5C81E /* Frameworks */,
@@ -280,6 +283,7 @@
 				C1F64DEA14F699CE00F5C81E /* main.m in Sources */,
 				C1F64DEE14F699CE00F5C81E /* gameAppDelegate.m in Sources */,
 				C1F64DFB14F699CE00F5C81E /* gameViewController.m in Sources */,
+				C1F64E1B14F69BDA00F5C81E /* gameModel.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -471,6 +475,19 @@
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C1F64E1914F69BDA00F5C81E /* gameModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C1F64E1A14F69BDA00F5C81E /* gameModel.xcdatamodel */,
+			);
+			currentVersion = C1F64E1A14F69BDA00F5C81E /* gameModel.xcdatamodel */;
+			path = gameModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = C1F64DCC14F699CD00F5C81E /* Project object */;
 }
